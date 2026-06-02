@@ -1,0 +1,33 @@
+{{ $bgURL := "" }}
+{{ with .Site.Params.homepage.homepageImage }}
+  {{ $img := resources.Get . }}
+  {{ if $img }}
+    {{ $bgURL = $img.RelPermalink }}
+  {{ end }}
+{{ end }}
+
+{{/* Hero banner — photo as CSS background-image so overlays stack reliably */}}
+<div style="position: relative; width: 100%; height: 78vh; min-height: 420px; max-height: 700px;
+            {{ if $bgURL }}background: url('{{ $bgURL }}') center/cover no-repeat;{{ end }}">
+  {{/* Title text */}}
+  <div style="position: absolute; bottom: 0; left: 0; right: 0;
+              padding: 3rem 3.5rem 2.5rem;">
+    <h1 style="margin: 0; color: #ffffff; font-size: clamp(1.5rem, 3.5vw, 2.6rem);
+               font-weight: 800; line-height: 1.2; text-shadow: 0 1px 6px rgba(0,0,0,0.4);">
+      {{ .Site.Params.Author.name | default .Site.Title }}
+    </h1>
+    {{ with .Site.Params.Author.headline }}
+      <p style="margin: 0.5rem 0 0; color: #f5e0e1; font-size: clamp(1rem, 2vw, 1.3rem);
+                text-shadow: 0 1px 4px rgba(0,0,0,0.4);">
+        {{ . | markdownify }}
+      </p>
+    {{ end }}
+  </div>
+</div>
+
+{{/* Page content */}}
+<article style="max-width: 1050px; margin: 0 auto; padding: 2.5rem 2rem 4rem;">
+  <section class="prose prose-xl dark:prose-invert" style="max-width: none; font-size: 1.15rem;">
+    {{ .Content }}
+  </section>
+</article>

@@ -1,0 +1,55 @@
+baseURL = "https://mher-safaryan.github.io/MARS_Symposium_2026/"
+languageCode = "en-gb"
+title = "MARS Annual Symposium 2026"
+theme = "blowfish"
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+  colorScheme = "lancaster"
+  description = "MARS Annual Symposium 2026: Computational Mathematics and Probabilistic Machine Learning"
+  defaultAppearance = "light"
+  autoSwitchAppearance = false
+  enableSearch = false
+  disableTextInHeader = false
+
+  [params.Author]
+    name = "MARS Annual Symposium 2026"
+    headline = "Computational Mathematics and Probabilistic Machine Learning · Lancaster University · 9–11 September 2026"
+
+  [params.homepage]
+    layout = "custom"
+    homepageImage = "images/background_photo_campus_highres.jpg"
+    showRecent = false
+    cardView = false
+
+  [params.header]
+    layout = "basic"
+
+  [params.footer]
+    showCopyright = false
+    showThemeAttribution = false
+    showAppearanceSwitcher = false
+    showScrollToTop = true
+
+[[menus.main]]
+  name = "Programme"
+  url = "/programme/"
+  weight = 10
+[[menus.main]]
+  name = "Speakers"
+  url = "/speakers/"
+  weight = 15
+[[menus.main]]
+  name = "Registration"
+  url = "/registration/"
+  weight = 20
+[[menus.main]]
+  name = "Practical info"
+  url = "/practical/"
+  weight = 30

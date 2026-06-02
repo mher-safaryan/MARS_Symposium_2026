@@ -1,0 +1,131 @@
+/* ── Header / navigation ──────────────────────────────────────────── */
+
+/* Nav link labels */
+.main-menu nav a span,
+.main-menu nav a span.text-base {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+}
+
+/* Site title in header */
+.main-menu > a.text-base {
+  font-size: 1.25rem !important;
+}
+
+/* Logo bar — white-background pill so logos read over any background */
+.logo-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 0.5rem auto 1rem;
+  padding: 1rem 1.5rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+  max-width: fit-content;
+}
+
+.logo-bar img {
+  height: 62px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ── Programme schedule ────────────────────────────────────────────── */
+
+.schedule {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.schedule .srow {
+  display: flex;
+  gap: 1rem;
+  padding: 0.12rem 0;
+  align-items: baseline;
+}
+
+.schedule .stime {
+  width: 8.5rem;
+  flex-shrink: 0;
+  font-weight: 600;
+  color: #555;
+  white-space: nowrap;
+}
+
+.schedule .sentry {
+  flex: 1;
+}
+
+.schedule .sentry a {
+  color: rgb(var(--color-primary-500));
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.schedule .sentry a:hover,
+.schedule .sentry a:focus {
+  color: rgb(var(--color-primary-600));
+  text-decoration: underline;
+}
+
+.schedule .srow.break .sentry {
+  color: #888;
+  font-style: italic;
+}
+
+/* ── Speakers list ─────────────────────────────────────────────────── */
+
+.speaker-list {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.speaker-list .speaker {
+  margin-bottom: 1.6rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.speaker-list .speaker:last-child {
+  border-bottom: none;
+}
+
+.speaker-list h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.1rem;
+}
+
+.speaker-list .meta {
+  color: #666;
+  margin: 0 0 0.5rem;
+  font-size: 0.82rem;
+}
+
+.speaker-list .talk-title {
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.speaker-list .abstract {
+  margin: 0;
+  text-align: justify;
+}
+
+/* Registration notice badge */
+.registration-notice {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.4rem;
+  background-color: #6a737b;
+  color: #ffffff;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+}
