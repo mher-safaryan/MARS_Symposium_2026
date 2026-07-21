@@ -53,3 +53,7 @@ enableEmoji = true
   name = "Practical info"
   url = "/practical/"
   weight = 30
+[[menus.main]]
+  name = "Code of conduct"
+  url = "/code-of-conduct/"
+  weight = 40
