@@ -54,6 +54,13 @@ description: "Confirmed speakers for the MARS Annual Symposium 2026"
 <p class="abstract"><em>Abstract to follow.</em></p>
 </div>
 
+<div class="speaker" id="ruth-misener">
+<h3>Prof. Ruth Misener</h3>
+<p class="meta">Imperial College London · Date and time to be confirmed</p>
+<p class="talk-title">Talk title to be confirmed</p>
+<p class="abstract"><em>Abstract to follow.</em></p>
+</div>
+
 <div class="speaker" id="siddharth-narayanaswamy">
 <h3>Dr. Siddharth Narayanaswamy</h3>
 <p class="meta">University of Edinburgh · Date and time to be confirmed</p>

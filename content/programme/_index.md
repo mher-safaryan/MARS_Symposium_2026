@@ -10,7 +10,7 @@ _Tentative Schedule_
 <div class="schedule">
 <div class="srow break"><span class="stime">12:00–1:30pm</span><span class="sentry">Welcome · Registration and lunch</span></div>
 <div class="srow"><span class="stime">1:15–1:30pm</span><span class="sentry">Opening remarks</span></div>
-<div class="srow"><span class="stime">1:30–2:30pm</span><span class="sentry tbd">tbd</span></div>
+<div class="srow"><span class="stime">1:30–2:30pm</span><span class="sentry">Plenary talk · <a href="../speakers/#ruth-misener">Prof. Ruth Misener</a> · Imperial College London</span></div>
 <div class="srow break"><span class="stime">2:30–3:00pm</span><span class="sentry">Break</span></div>
 <div class="srow"><span class="stime">3:00–3:30pm</span><span class="sentry">Talk · <a href="../speakers/#chris-sherlock">Prof. Chris Sherlock</a> · Lancaster University</span></div>
 <div class="srow"><span class="stime">3:30–4:00pm</span><span class="sentry">Talk · <a href="../speakers/#siddharth-narayanaswamy">Dr. Siddharth Narayanaswamy</a> · University of Edinburgh</span></div>
