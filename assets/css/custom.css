@@ -121,6 +121,13 @@
   text-align: justify;
 }
 
+.speaker-list .joint-work,
+.speaker-list .paper-link {
+  margin: 0.4rem 0 0;
+  font-size: 0.8rem;
+  color: #666;
+}
+
 /* ── Map embed ─────────────────────────────────────────────────────── */
 
 .map-embed {
