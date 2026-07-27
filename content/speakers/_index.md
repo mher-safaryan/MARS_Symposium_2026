@@ -51,7 +51,7 @@ description: "Confirmed speakers for the MARS Annual Symposium 2026"
 <h3>Prof. Benedict Leimkuhler</h3>
 <p class="meta">University of Edinburgh · Date and time to be confirmed</p>
 <p class="talk-title">Position-adaptive Langevin</p>
-<p class="abstract">I will discuss the design of Langevin-based sampling algorithms based on using a projected position-dependent friction as a type of preconditioner. I will show with several numerical studies that this approach can accelerate convergence while also improving accuracy and overall robustness. I will also discuss the combination of position-adaptive Langevin with variable stepsizes implemented using the SamAdams framework.</p>
+<p class="abstract">I will discuss the design of Langevin sampling algorithms based on using a projected position-dependent friction as a type of preconditioner. I will show with several numerical studies that this approach can accelerate convergence while also improving accuracy and overall robustness. I will also discuss the combination of position-adaptive Langevin with variable stepsizes implemented using the SamAdams framework.</p>
 <p class="joint-work">Joint work with Peter Whalley.</p>
 </div>
 

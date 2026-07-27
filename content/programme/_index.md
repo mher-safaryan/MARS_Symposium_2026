@@ -14,7 +14,7 @@ _Tentative Schedule_
 <div class="srow break"><span class="stime">2:30–3:00pm</span><span class="sentry">Break</span></div>
 <div class="srow"><span class="stime">3:00–3:35pm</span><span class="sentry">Talk · <a href="../speakers/#chris-sherlock">Prof. Chris Sherlock</a> · Lancaster University</span></div>
 <div class="srow break"><span class="stime">3:35–4:05pm</span><span class="sentry">Break</span></div>
-<div class="srow"><span class="stime">4:05–4:40pm</span><span class="sentry">Talk · <a href="../speakers/#benedict-leimkuhler">Prof. Benedict Leimkuhler</a> · University of Edinburgh</span></div>
+<div class="srow"><span class="stime">4:05–4:40pm</span><span class="sentry">Talk · <a href="../speakers/#siddharth-narayanaswamy">Dr. Siddharth Narayanaswamy</a> · University of Edinburgh</span></div>
 <div class="srow"><span class="stime">4:40–5:15pm</span><span class="sentry">Talk · <a href="../speakers/#clarice-poon">Dr. Clarice Poon</a> · University of Warwick</span></div>
 <div class="srow break"><span class="stime">5:15pm</span><span class="sentry">End of Day 1</span></div>
 </div>
@@ -28,7 +28,7 @@ _Tentative Schedule_
 <div class="srow"><span class="stime">11:05–11:40am</span><span class="sentry">Talk · <a href="../speakers/#mauricio-a-alvarez">Dr. Mauricio A Álvarez</a> · University of Manchester</span></div>
 <div class="srow break"><span class="stime">11:40am–1:10pm</span><span class="sentry">Lunch break</span></div>
 <div class="srow"><span class="stime">1:10–1:45pm</span><span class="sentry">Talk · <a href="../speakers/#christophe-andrieu">Prof. Christophe Andrieu</a> · University of Bristol</span></div>
-<div class="srow"><span class="stime">1:45–2:20pm</span><span class="sentry">Talk · <a href="../speakers/#siddharth-narayanaswamy">Dr. Siddharth Narayanaswamy</a> · University of Edinburgh</span></div>
+<div class="srow"><span class="stime">1:45–2:20pm</span><span class="sentry">Talk · <a href="../speakers/#benedict-leimkuhler">Prof. Benedict Leimkuhler</a> · University of Edinburgh</span></div>
 <div class="srow break"><span class="stime">2:20–2:50pm</span><span class="sentry">Break</span></div>
 <div class="srow"><span class="stime">2:50–3:25pm</span><span class="sentry">Talk · <a href="../speakers/#tim-sullivan">Dr. Tim Sullivan</a> · University of Warwick</span></div>
 <div class="srow break"><span class="stime">3:25–3:35pm</span><span class="sentry">Break</span></div>
