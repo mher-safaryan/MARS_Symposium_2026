@@ -8,20 +8,13 @@ description: "Confirmed speakers for the MARS Annual Symposium 2026"
 <div class="speaker" id="mauricio-a-alvarez">
 <h3>Dr. Mauricio A Álvarez</h3>
 <p class="meta">University of Manchester · Date and time to be confirmed</p>
-<p class="talk-title">Talk title to be confirmed</p>
-<p class="abstract"><em>Abstract to follow.</em></p>
+<p class="talk-title">Advances in scalable inference for Gaussian Processes-Variational Autoencoders (GPVAEs)</p>
+<p class="abstract">Gaussian Processes (GP) Variational Autoencoders (GPVAEs) assign a GP prior over the latent space of a VAE. There are several examples in the literature showing why a GP prior helps the VAE in several representation learning tasks. However, scaling GPVAEs to long sequences is challenging. In this talk, I’ll introduce GPVAEs and discuss a recent couple of research directions in our group looking to reduce GPVAEs’ computational complexity.</p>
 </div>
 
 <div class="speaker" id="christophe-andrieu">
 <h3>Prof. Christophe Andrieu</h3>
 <p class="meta">University of Bristol · Date and time to be confirmed</p>
-<p class="talk-title">Talk title to be confirmed</p>
-<p class="abstract"><em>Abstract to follow.</em></p>
-</div>
-
-<div class="speaker" id="theo-damoulas">
-<h3>Prof. Theo Damoulas</h3>
-<p class="meta">University of Warwick · Date and time to be confirmed</p>
 <p class="talk-title">Talk title to be confirmed</p>
 <p class="abstract"><em>Abstract to follow.</em></p>
 </div>
@@ -53,6 +46,13 @@ description: "Confirmed speakers for the MARS Annual Symposium 2026"
 <p class="talk-title">Position-adaptive Langevin</p>
 <p class="abstract">I will discuss the design of Langevin sampling algorithms based on using a projected position-dependent friction as a type of preconditioner. I will show with several numerical studies that this approach can accelerate convergence while also improving accuracy and overall robustness. I will also discuss the combination of position-adaptive Langevin with variable stepsizes implemented using the SamAdams framework.</p>
 <p class="joint-work">Joint work with Peter Whalley.</p>
+</div>
+
+<div class="speaker" id="samuel-livingstone">
+<h3>Dr. Samuel Livingstone</h3>
+<p class="meta">University College London · Date and time to be confirmed</p>
+<p class="talk-title">Talk title to be confirmed</p>
+<p class="abstract"><em>Abstract to follow.</em></p>
 </div>
 
 <div class="speaker" id="ruth-misener">

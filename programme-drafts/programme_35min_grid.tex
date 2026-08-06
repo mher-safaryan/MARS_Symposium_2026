@@ -1,0 +1,123 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,landscape,margin=1.0cm]{geometry}
+\usepackage{tikz}
+\usepackage{xcolor}
+
+% --- Colours ----------------------------------------------------------
+\definecolor{crimson}{HTML}{B5121B}   % Lancaster crimson
+\definecolor{plenbg}{HTML}{EEB8B8}    % plenary
+\definecolor{talkbg}{HTML}{FBEEEE}    % regular talk
+\definecolor{postbg}{HTML}{FBE2BD}    % spotlight / poster
+\definecolor{brkbg}{HTML}{ECECEC}     % break
+\definecolor{logbg}{HTML}{E3E9F0}     % logistics (lunch, dinner, remarks)
+
+% --- Grid geometry ----------------------------------------------------
+\def\hh{1.1}   % cm per hour (vertical scale)
+\def\cw{8}     % column width (cm)
+
+% --- Content formatters ----------------------------------------------
+\newcommand{\Talk}[2]{{\small\textbf{#1}}\\[-3pt]{\tiny\itshape\textcolor{gray}{#2}}}
+\newcommand{\Plen}[2]{{\tiny\bfseries\color{crimson}PLENARY}\\[-3pt]{\small\textbf{#1}}\\[-3pt]{\tiny\itshape\textcolor{gray}{#2}}}
+\newcommand{\Sess}[1]{{\small\bfseries #1}}
+\newcommand{\Logi}[1]{{\scriptsize #1}}
+\newcommand{\Tin}[1]{{\tiny #1}}
+\newcommand{\Brk}{{\tiny\textcolor{gray}{Break}}}
+
+% --- Block: xleft, tstart(h since 9am), tend, fill, time, content ----
+\newcommand{\blk}[6]{%
+  \fill[#4,draw=black!20,line width=0.3pt,rounded corners=1.5pt]
+     ({#1},{-#2*\hh}) rectangle ({#1+\cw},{-#3*\hh});
+  \node[anchor=north east,inner sep=2.5pt,font=\tiny,text=gray]
+     at ({#1+\cw},{-#2*\hh}) {#5};
+  \node[anchor=north west,align=left,inner sep=2.5pt,text width=5.9cm]
+     at ({#1},{-#2*\hh}) {#6};
+}
+
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries\color{crimson} MARS Annual Symposium 2026}\\[2pt]
+  {\normalsize Computational Mathematics and Probabilistic Machine Learning \quad\textbullet\quad
+   Lancaster University \quad\textbullet\quad 9--11 September 2026}\\[1pt]
+  {\footnotesize\color{gray} Draft programme --- 35-minute talks}
+\end{center}
+\vspace{-0.3em}
+
+\begin{center}
+\begin{tikzpicture}
+
+% --- column background frames ---------------------------------------
+\foreach \x in {0,8.5,17}{
+  \draw[black!10] ({\x},0) rectangle ({\x+\cw},{-12*\hh});
+}
+
+% --- hour gridlines + time labels -----------------------------------
+\foreach \t/\lab in {0/{9\,am},1/{10\,am},2/{11\,am},3/{12\,pm},4/{1\,pm},%
+5/{2\,pm},6/{3\,pm},7/{4\,pm},8/{5\,pm},9/{6\,pm},10/{7\,pm},11/{8\,pm},12/{9\,pm}}{
+  \draw[black!12,line width=0.3pt] (-0.15,{-\t*\hh}) -- (25.15,{-\t*\hh});
+  \node[anchor=east,font=\scriptsize,text=gray] at (-0.3,{-\t*\hh}) {\lab};
+}
+
+% --- day header bars -------------------------------------------------
+\foreach \x/\d in {0/{Day 1 {\normalfont\itshape Wed 9 Sep}},%
+8.5/{Day 2 {\normalfont\itshape Thu 10 Sep}},%
+17/{Day 3 {\normalfont\itshape Fri 11 Sep}}}{
+  \fill[crimson,rounded corners=3pt] ({\x},0.3) rectangle ({\x+\cw},1.1);
+  \node[text=white,font=\bfseries\small] at ({\x+4},0.7) {\d};
+}
+
+% ===================== DAY 1 (x = 0) ================================
+\blk{0}{3.0}{4.25}{logbg}{12:00--1:15}{\Logi{Registration \& lunch}}
+\blk{0}{4.25}{4.5}{logbg}{1:15--1:30}{\Tin{Opening remarks}}
+\blk{0}{4.5}{5.5}{plenbg}{1:30--2:30}{\Plen{Prof.\ Gareth Roberts}{University of Warwick}}
+\blk{0}{5.5}{6.0833}{talkbg}{2:30--3:05}{\Talk{Prof.\ Chris Sherlock}{Lancaster University}}
+\blk{0}{6.0833}{6.5833}{brkbg}{3:05--3:35}{\Brk}
+\blk{0}{6.5833}{7.1667}{talkbg}{3:35--4:10}{\Talk{Dr.\ Clarice Poon}{University of Warwick}}
+\blk{0}{7.1667}{8.6667}{postbg}{4:10--5:40}{\Sess{Spotlight presentations}}
+
+% ===================== DAY 2 (x = 8.5) ==============================
+\blk{8.5}{0}{1}{plenbg}{9:00--10:00}{\Plen{Prof.\ Ruth Misener}{Imperial College London}}
+\blk{8.5}{1}{1.5}{brkbg}{10:00--10:30}{\Brk}
+\blk{8.5}{1.5}{2.0833}{talkbg}{10:30--11:05}{\Talk{Prof.\ Anthony Lee}{University of Bristol}}
+\blk{8.5}{2.0833}{2.6667}{talkbg}{11:05--11:40}{\Talk{Dr.\ Mauricio A \'Alvarez}{University of Manchester}}
+\blk{8.5}{2.6667}{4.1667}{logbg}{11:40--1:10}{\Logi{Lunch}}
+\blk{8.5}{4.1667}{4.75}{talkbg}{1:10--1:45}{\Talk{Prof.\ Christophe Andrieu}{University of Bristol}}
+\blk{8.5}{4.75}{5.3333}{talkbg}{1:45--2:20}{\Talk{Prof.\ Benedict Leimkuhler}{University of Edinburgh}}
+\blk{8.5}{5.3333}{5.8333}{brkbg}{2:20--2:50}{\Brk}
+\blk{8.5}{5.8333}{6.4167}{talkbg}{2:50--3:25}{\Talk{Dr.\ Tim Sullivan}{University of Warwick}}
+\blk{8.5}{6.4167}{6.5833}{brkbg}{3:25--3:35}{}
+\blk{8.5}{6.5833}{7.5833}{postbg}{3:35--4:35}{\Sess{Spotlight presentations}}
+\blk{8.5}{7.5833}{7.75}{brkbg}{4:35--4:45}{}
+\blk{8.5}{7.75}{8.75}{postbg}{4:45--5:45}{\Sess{Poster session}}
+\blk{8.5}{10.0}{12.0}{logbg}{7:00--9:00}{\Logi{Conference dinner}}
+
+% ===================== DAY 3 (x = 17) ===============================
+\blk{17}{0}{0.5833}{talkbg}{9:00--9:35}{\Talk{Dr.\ Samuel Livingstone}{University College London}}
+\blk{17}{0.5833}{1.0833}{brkbg}{9:35--10:05}{\Brk}
+\blk{17}{1.0833}{1.6667}{talkbg}{10:05--10:40}{\Talk{Dr.\ Avetik Karagulyan}{\'Ecole Polytechnique}}
+\blk{17}{1.6667}{2.25}{talkbg}{10:40--11:15}{\Talk{Dr.\ Paris Giampouras}{University of Warwick}}
+\blk{17}{2.25}{2.75}{brkbg}{11:15--11:45}{\Brk}
+\blk{17}{2.75}{3.3333}{talkbg}{11:45--12:20}{\Talk{Dr.\ Siddharth Narayanaswamy}{University of Edinburgh}}
+\blk{17}{3.3333}{3.5}{logbg}{12:20--12:30}{\Tin{Closing remarks}}
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{-0.2em}
+\begin{center}\footnotesize\color{gray}
+\setlength{\fboxsep}{2pt}%
+\colorbox{plenbg}{\phantom{XX}}~Plenary \quad
+\colorbox{talkbg}{\phantom{XX}}~Talk (35\,min) \quad
+\colorbox{postbg}{\phantom{XX}}~Spotlight / poster \quad
+\colorbox{brkbg}{\phantom{XX}}~Break \quad
+\colorbox{logbg}{\phantom{XX}}~Meals / remarks
+\end{center}
+
+\end{document}

@@ -2,4 +2,7 @@ public/
 .hugo_build.lock
 resources/
 .DS_Store
-programme-drafts/*
+
+# LaTeX build artifacts (programme drafts)
+*.fdb_latexmk
+*.fls

@@ -1,0 +1,148 @@
+\documentclass[11pt]{article}
+
+% --- Encoding & fonts -------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% --- Page geometry ----------------------------------------------------
+\usepackage[a4paper,top=2cm,bottom=2cm,left=2.2cm,right=2.2cm]{geometry}
+
+% --- Tables -----------------------------------------------------------
+\usepackage{booktabs}     % \toprule \midrule \bottomrule
+\usepackage{tabularx}     % auto-width X column
+\usepackage{colortbl}     % \rowcolor
+\usepackage{array}
+\usepackage{ragged2e}     % \RaggedRight \Centering
+
+% --- Colours & links --------------------------------------------------
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{crimson}{HTML}{B5121B}   % Lancaster University crimson
+\definecolor{plenarybg}{HTML}{F7DCDC} % light crimson tint
+\definecolor{posterbg}{HTML}{FCEFD6}  % amber tint (spotlight / poster)
+\definecolor{breakbg}{HTML}{F1F1F1}   % light grey (breaks)
+\definecolor{graytext}{HTML}{7A7A7A}
+
+% --- Column types -----------------------------------------------------
+\newcolumntype{L}{>{\RaggedRight\arraybackslash}p{3.1cm}}
+\newcolumntype{C}{>{\Centering\arraybackslash}p{1.7cm}}
+\newcolumntype{R}{>{\RaggedRight\arraybackslash}X}
+
+% --- Helper macros ----------------------------------------------------
+% Talk: speaker (bold) with affiliation pushed right (italic grey)
+\newcommand{\talk}[2]{\textbf{#1}\hfill\textcolor{graytext}{\textit{#2}}}
+% Plenary label
+\newcommand{\plenary}[2]{\textbf{\textcolor{crimson}{Plenary}}\quad\textbf{#1}%
+  \hfill\textcolor{graytext}{\textit{#2}}}
+% Break row content
+\newcommand{\brk}{\textcolor{graytext}{\itshape Break}}
+
+% Header row for each day's table
+\newcommand{\headrow}{%
+  \rowcolor{crimson}
+  \textcolor{white}{\textbf{Time}} &
+  \textcolor{white}{\textbf{Duration}} &
+  \textcolor{white}{\textbf{Session}} \\}
+
+\setlength{\extrarowheight}{2.2pt}
+\arrayrulecolor{black!25}
+\renewcommand{\arraystretch}{1.05}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% =====================================================================
+\begin{center}
+  {\LARGE\bfseries\color{crimson} MARS Annual Symposium 2026}\\[4pt]
+  {\large Computational Mathematics and Probabilistic Machine Learning}\\[2pt]
+  {\normalsize Lancaster University \textbullet\ 9--11 September 2026}\\[6pt]
+  {\footnotesize\color{graytext} Draft programme --- 35-minute talks}
+\end{center}
+\vspace{0.4em}
+
+% =====================================================================
+\section*{\color{crimson}Day 1 \normalfont\small(Wednesday 9 September)}
+\vspace{-0.4em}
+\begin{tabularx}{\linewidth}{L C R}
+\headrow
+\midrule
+12:00--1:15\,pm & 75 min & Welcome \textbullet\ registration and lunch \\
+1:15--1:30\,pm  & 15 min & Opening remarks \\
+\rowcolor{plenarybg}
+1:30--2:30\,pm  & 60 min & \plenary{Prof.\ Gareth Roberts}{University of Warwick} \\
+2:30--3:05\,pm  & 35 min & \talk{Prof.\ Chris Sherlock}{Lancaster University} \\
+\rowcolor{breakbg}
+3:05--3:35\,pm  & 30 min & \brk \\
+3:35--4:10\,pm  & 35 min & \talk{Dr.\ Clarice Poon}{University of Warwick} \\
+\rowcolor{posterbg}
+4:10--5:40\,pm  & 90 min & \textbf{Spotlight presentations} \\
+\midrule
+5:40\,pm        & \textemdash & \textit{End of Day 1} \\
+\bottomrule
+\end{tabularx}
+
+% =====================================================================
+\section*{\color{crimson}Day 2 \normalfont\small(Thursday 10 September)}
+\vspace{-0.4em}
+\begin{tabularx}{\linewidth}{L C R}
+\headrow
+\midrule
+\rowcolor{plenarybg}
+9:00--10:00\,am  & 60 min  & \plenary{Prof.\ Ruth Misener}{Imperial College London} \\
+\rowcolor{breakbg}
+10:00--10:30\,am & 30 min  & \brk \\
+10:30--11:05\,am & 35 min  & \talk{Prof.\ Anthony Lee}{University of Bristol} \\
+11:05--11:40\,am & 35 min  & \talk{Dr.\ Mauricio A \'Alvarez}{University of Manchester} \\
+11:40\,am--1:10\,pm & 90 min & Lunch \\
+1:10--1:45\,pm   & 35 min  & \talk{Prof.\ Christophe Andrieu}{University of Bristol} \\
+1:45--2:20\,pm   & 35 min  & \talk{Prof.\ Benedict Leimkuhler}{University of Edinburgh} \\
+\rowcolor{breakbg}
+2:20--2:50\,pm   & 30 min  & \brk \\
+2:50--3:25\,pm   & 35 min  & \talk{Dr.\ Tim Sullivan}{University of Warwick} \\
+\rowcolor{breakbg}
+3:25--3:35\,pm   & 10 min  & \brk \\
+\rowcolor{posterbg}
+3:35--4:35\,pm   & 60 min  & \textbf{Spotlight presentations} \\
+\rowcolor{breakbg}
+4:35--4:45\,pm   & 10 min  & \brk \\
+\rowcolor{posterbg}
+4:45--5:45\,pm   & 60 min  & \textbf{Poster session} \\
+7:00--9:00\,pm   & 120 min & Conference dinner \\
+\bottomrule
+\end{tabularx}
+
+% =====================================================================
+\section*{\color{crimson}Day 3 \normalfont\small(Friday 11 September)}
+\vspace{-0.4em}
+\begin{tabularx}{\linewidth}{L C R}
+\headrow
+\midrule
+9:00--9:35\,am   & 35 min & \talk{Dr.\ Samuel Livingstone}{University College London} \\
+\rowcolor{breakbg}
+9:35--10:05\,am  & 30 min & \brk \\
+10:05--10:40\,am & 35 min & \talk{Dr.\ Avetik Karagulyan}{\'Ecole Polytechnique} \\
+10:40--11:15\,am & 35 min & \talk{Dr.\ Paris Giampouras}{University of Warwick} \\
+\rowcolor{breakbg}
+11:15--11:45\,am & 30 min & \brk \\
+11:45\,am--12:20\,pm & 35 min & \talk{Dr.\ Siddharth Narayanaswamy}{University of Edinburgh} \\
+12:20--12:30\,pm & 10 min & Closing remarks \\
+\midrule
+12:30\,pm        & \textemdash & \textit{End of symposium} \\
+\bottomrule
+\end{tabularx}
+
+% =====================================================================
+\vfill
+\begin{center}\footnotesize\color{graytext}
+\setlength{\fboxsep}{2pt}%
+\colorbox{plenarybg}{\phantom{XX}}~Plenary \quad
+\colorbox{posterbg}{\phantom{XX}}~Spotlight / poster \quad
+\colorbox{breakbg}{\phantom{XX}}~Break \\[4pt]
+2 plenary talks \textbullet\ 11 regular talks (35 min each)
+\textbullet\ 1.5\,h $+$ 1\,h spotlight \textbullet\ 1\,h poster session
+\end{center}
+
+\end{document}
