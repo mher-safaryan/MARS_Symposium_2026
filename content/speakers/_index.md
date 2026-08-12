@@ -51,8 +51,9 @@ description: "Confirmed speakers for the MARS Annual Symposium 2026"
 <div class="speaker" id="samuel-livingstone">
 <h3>Dr. Samuel Livingstone</h3>
 <p class="meta">University College London · Date and time to be confirmed</p>
-<p class="talk-title">Talk title to be confirmed</p>
-<p class="abstract"><em>Abstract to follow.</em></p>
+<p class="talk-title">Skew-symmetric numerical schemes for stochastic differential equations: strong convergence and multi-level extension</p>
+<p class="abstract">I will discuss recent work fusing together two strands of the applied mathematics and statistics literature, one concerned with developing flexible probability distributions for data that rely on a small number of parameters, and another concerned with developing numerical integration schemes to simulate stochastic processes. The specific case that I will focus on uses the skew-symmetric family of probability distributions introduced by Adelchi Azzalini and co-authors to approximate the transition kernels of diffusion processes over small time steps, producing alternative numerical schemes to the classical Euler–Maruyama approach. Applying the scheme to the overdamped Langevin diffusion leads to an unadjusted version of the Barker proposal Metropolis–Hastings algorithm. In earlier work weak accuracy was established over finite and infinite time scales, crucially without needing a globally Lipschitz assumption on the drift of the stochastic differential equation. I will review this and then discuss more recent work establishing strong convergence in the mean-squared sense using a novel coupling between the numerical and exact processes. This also enables the development of a multi-level Monte Carlo scheme, which I will discuss the merits of with particular focus on the superlinear drift case, as compared to Euler and Tamed Euler alternatives.</p>
+<p class="joint-work">Joint work with Yuga Iguchi, Giorgos Vasdekis and Rui-Yang Zhang.</p>
 </div>
 
 <div class="speaker" id="ruth-misener">

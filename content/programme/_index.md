@@ -8,14 +8,15 @@ _Tentative Schedule_
 ## Day 1 (Wednesday 9 September)
 
 <div class="schedule">
-<div class="srow break"><span class="stime">12:00–1:15pm</span><span class="sentry">Welcome · Registration and lunch</span></div>
+<div class="srow break"><span class="stime">12:00–1:15pm</span><span class="sentry">Registration and lunch</span></div>
 <div class="srow"><span class="stime">1:15–1:30pm</span><span class="sentry">Opening remarks</span></div>
 <div class="srow"><span class="stime">1:30–2:30pm</span><span class="sentry">Plenary talk · <a href="../speakers/#gareth-roberts">Prof. Gareth Roberts</a> · University of Warwick</span></div>
 <div class="srow"><span class="stime">2:30–3:05pm</span><span class="sentry">Talk · <a href="../speakers/#chris-sherlock">Prof. Chris Sherlock</a> · Lancaster University</span></div>
 <div class="srow break"><span class="stime">3:05–3:35pm</span><span class="sentry">Break</span></div>
 <div class="srow"><span class="stime">3:35–4:10pm</span><span class="sentry">Talk · <a href="../speakers/#clarice-poon">Dr. Clarice Poon</a> · University of Warwick</span></div>
-<div class="srow"><span class="stime">4:10–5:40pm</span><span class="sentry">Spotlight presentations</span></div>
-<div class="srow break"><span class="stime">5:40pm</span><span class="sentry">End of Day 1</span></div>
+<div class="srow break"><span class="stime">4:10–4:20pm</span><span class="sentry">Break</span></div>
+<div class="srow"><span class="stime">4:20–5:50pm</span><span class="sentry">Spotlight presentations</span></div>
+<div class="srow break"><span class="stime">5:50pm</span><span class="sentry">End of Day 1</span></div>
 </div>
 
 ## Day 2 (Thursday 10 September)
@@ -25,7 +26,7 @@ _Tentative Schedule_
 <div class="srow break"><span class="stime">10:00–10:30am</span><span class="sentry">Break</span></div>
 <div class="srow"><span class="stime">10:30–11:05am</span><span class="sentry">Talk · <a href="../speakers/#anthony-lee">Prof. Anthony Lee</a> · University of Bristol</span></div>
 <div class="srow"><span class="stime">11:05–11:40am</span><span class="sentry">Talk · <a href="../speakers/#mauricio-a-alvarez">Dr. Mauricio A Álvarez</a> · University of Manchester</span></div>
-<div class="srow break"><span class="stime">11:40am–1:10pm</span><span class="sentry">Lunch break</span></div>
+<div class="srow break"><span class="stime">11:40am–1:10pm</span><span class="sentry">Lunch</span></div>
 <div class="srow"><span class="stime">1:10–1:45pm</span><span class="sentry">Talk · <a href="../speakers/#christophe-andrieu">Prof. Christophe Andrieu</a> · University of Bristol</span></div>
 <div class="srow"><span class="stime">1:45–2:20pm</span><span class="sentry">Talk · <a href="../speakers/#benedict-leimkuhler">Prof. Benedict Leimkuhler</a> · University of Edinburgh</span></div>
 <div class="srow break"><span class="stime">2:20–2:50pm</span><span class="sentry">Break</span></div>
