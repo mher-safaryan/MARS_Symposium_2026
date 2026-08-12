@@ -72,6 +72,14 @@
   text-decoration: underline;
 }
 
+/* highlight the slot linked to from the speakers page */
+.schedule .srow:target {
+  background: rgba(181, 18, 27, 0.08);
+  border-radius: 0.25rem;
+  padding-left: 0.4rem;
+  margin-left: -0.4rem;
+}
+
 .schedule .srow.break .sentry {
   color: #888;
   font-style: italic;
@@ -108,6 +116,19 @@
   color: #666;
   margin: 0 0 0.5rem;
   font-size: 0.82rem;
+}
+
+.speaker-list .meta a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.25);
+  text-underline-offset: 2px;
+}
+
+.speaker-list .meta a:hover,
+.speaker-list .meta a:focus {
+  color: rgb(var(--color-primary-500));
+  text-decoration-color: currentColor;
 }
 
 .speaker-list .talk-title {
