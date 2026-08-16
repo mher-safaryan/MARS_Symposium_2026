@@ -75,8 +75,9 @@ description: "Confirmed speakers for the MARS Annual Symposium 2026"
 <div class="speaker" id="clarice-poon">
 <h3>Dr. Clarice Poon</h3>
 <p class="meta">University of Warwick · <a href="../programme/#slot-clarice-poon">Wednesday 9 September, 3:35–4:10pm</a></p>
-<p class="talk-title">Talk title to be confirmed</p>
-<p class="abstract"><em>Abstract to follow.</em></p>
+<p class="talk-title">On the limit points of gradient flows for wide shallow models beyond homogeneous nonlinearities</p>
+<p class="abstract">A surprising phenomenon in the training of neural networks is the ability of gradient descent to find global minimizers of the training loss despite its non-convexity. Following earlier work, we investigate this behavior for wide shallow models. Existing global convergence results primarily concern models with positively one-homogeneous nonlinearities, such as ReLU activations, and models with scalar output weights and bounded nonlinearities, such as sigmoid activations. We study a broader class of models, including multi-head attention layers and two-layer networks with bounded or asymptotically positively one-homogeneous activations and vector output weights. We prove that, in the limit of many hidden neurons or attention heads, non-global minimizers of the training loss are unstable under mean-field gradient flow dynamics by constructing “escape regions” in the parameter space. Our global convergence statements are conditional in the following sense: if the mean-field gradient flow converges in W<sub>2</sub>, then its limit must be a global minimizer.</p>
+<p class="joint-work">Joint work with Romain Petit and Gabriel Peyré.</p>
 </div>
 
 <div class="speaker" id="gareth-roberts">
