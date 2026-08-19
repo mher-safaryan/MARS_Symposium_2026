@@ -15,8 +15,8 @@ _Tentative Schedule_
 <div class="srow break"><span class="stime">3:05–3:35pm</span><span class="sentry">Break</span></div>
 <div class="srow" id="slot-clarice-poon"><span class="stime">3:35–4:10pm</span><span class="sentry">Talk · <a href="../speakers/#clarice-poon">Dr. Clarice Poon</a> · University of Warwick</span></div>
 <div class="srow break"><span class="stime">4:10–4:20pm</span><span class="sentry">Break</span></div>
-<div class="srow"><span class="stime">4:20–5:50pm</span><span class="sentry">Spotlight presentations</span></div>
-<div class="srow break"><span class="stime">5:50pm</span><span class="sentry">End of Day 1</span></div>
+<div class="srow"><span class="stime">4:20–6:00pm</span><span class="sentry">Spotlight presentations</span></div>
+<div class="srow break"><span class="stime">6:00pm</span><span class="sentry">End of Day 1</span></div>
 </div>
 
 ## Day 2 (Thursday 10 September)
@@ -32,9 +32,8 @@ _Tentative Schedule_
 <div class="srow break"><span class="stime">2:20–2:50pm</span><span class="sentry">Break</span></div>
 <div class="srow" id="slot-tim-sullivan"><span class="stime">2:50–3:25pm</span><span class="sentry">Talk · <a href="../speakers/#tim-sullivan">Dr. Tim Sullivan</a> · University of Warwick</span></div>
 <div class="srow break"><span class="stime">3:25–3:35pm</span><span class="sentry">Break</span></div>
-<div class="srow"><span class="stime">3:35–4:35pm</span><span class="sentry">Spotlight presentations</span></div>
-<div class="srow break"><span class="stime">4:35–4:45pm</span><span class="sentry">Break</span></div>
-<div class="srow"><span class="stime">4:45–5:45pm</span><span class="sentry">Poster session</span></div>
+<div class="srow"><span class="stime">3:35–5:00pm</span><span class="sentry">Spotlight presentations</span></div>
+<div class="srow"><span class="stime">5:00–6:00pm</span><span class="sentry">Poster session</span></div>
 <div class="srow break"><span class="stime">7:00–9:00pm</span><span class="sentry">Conference dinner</span></div>
 </div>
 
