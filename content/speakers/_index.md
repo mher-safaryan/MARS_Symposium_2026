@@ -99,8 +99,9 @@ description: "Confirmed speakers for the MARS Annual Symposium 2026"
 <div class="speaker" id="tim-sullivan">
 <h3>Dr. Tim Sullivan</h3>
 <p class="meta">University of Warwick · <a href="../programme/#slot-tim-sullivan">Thursday 10 September, 2:50–3:25pm</a></p>
-<p class="talk-title">Talk title to be confirmed</p>
-<p class="abstract"><em>Abstract to follow.</em></p>
+<p class="talk-title">Autoencoders in function space</p>
+<p class="abstract">High-resolution approximations of functional data arise frequently in scientific computing. While discretisation makes problems finite dimensional, designing algorithms in function space first enables smooth operation between resolutions. We propose function-space versions of autoencoders—machine-learning methods for dimension reduction and generative modelling—in both their deterministic (FAE) and variational (FVAE) forms. This enables training and evaluation on data discretised at arbitrary resolutions, and unlocks new applications such as inpainting, superresolution, and generative modelling. We demonstrate this on scientific data sets, including data from Navier–Stokes fluid flow simulations.</p>
+<p class="joint-work">Joint work with Justin Bunker and Mark Girolami (Cambridge), Hefin Lambley (Warwick), and Andrew M. Stuart (Caltech).</p>
 </div>
 
 </div>
