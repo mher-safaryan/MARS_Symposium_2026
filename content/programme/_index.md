@@ -3,7 +3,7 @@ title: "Programme"
 description: "Programme for the MARS Annual Symposium 2026"
 ---
 
-_Tentative Schedule_
+_Schedule_
 
 ## Day 1 (Wednesday 9 September)
 
