@@ -14,7 +14,6 @@ description: "Programme for the MARS Annual Symposium 2026"
 <div class="srow" id="slot-clarice-poon"><span class="stime">15:30 – 16:05</span><span class="sentry">Invited Talk · <a href="../speakers/#clarice-poon">Dr. Clarice Poon</a> · University of Warwick</span></div>
 <div class="srow break"><span class="stime">16:05 – 16:20</span><span class="sentry">Break</span></div>
 <div class="srow"><span class="stime">16:20 – 18:00</span><span class="sentry">Spotlight presentations</span></div>
-<div class="srow break"><span class="stime">18:00</span><span class="sentry">End of Day 1</span></div>
 </div>
 
 ## Day 2 (Thursday 10 September)
