@@ -6,6 +6,14 @@ theme = "blowfish"
 enableRobotsTXT = true
 enableEmoji = true
 
+# Keep local navigation on the latest build, including after menu changes.
+[[server.headers]]
+  for = "/**"
+  [server.headers.values]
+    Cache-Control = "no-store, no-cache, must-revalidate, max-age=0"
+    Pragma = "no-cache"
+    Expires = "0"
+
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
@@ -45,15 +53,17 @@ enableEmoji = true
   name = "Speakers"
   url = "/speakers/"
   weight = 15
+# Registration period has ended; retain the menu entry for future use.
+# [[menus.main]]
+#   name = "Registration"
+#   url = "/registration/"
+#   weight = 20
 [[menus.main]]
-  name = "Registration"
-  url = "/registration/"
-  weight = 20
-[[menus.main]]
-  name = "Practical info"
+  name = "Practical Info"
   url = "/practical/"
   weight = 30
-[[menus.main]]
-  name = "Code of conduct"
-  url = "/code-of-conduct/"
-  weight = 40
+# Code of conduct is included in Practical Info.
+# [[menus.main]]
+#   name = "Code of conduct"
+#   url = "/code-of-conduct/"
+#   weight = 40

@@ -16,8 +16,16 @@ Retrieved 5 September 2026. Biographies are concise paraphrases of public academ
 | siddharth-narayanaswamy | [Profile](https://homepages.inf.ed.ac.uk/snaraya3/) | [Portrait page](https://homepages.inf.ed.ac.uk/snaraya3/) | [Original image](https://homepages.inf.ed.ac.uk/snaraya3/images/img.webp) |
 | clarice-poon | [Profile](https://cmhsp2.github.io/) | [Portrait page](https://cmhsp2.github.io/) | [Original image](https://cmhsp2.github.io/files/clarice.JPG) |
 | chris-sherlock | [Profile](https://chrisgsherlock.github.io/) | [Portrait page](https://www.lancaster.ac.uk/sci-tech/about-us/people/christopher-sherlock) | [Original image](https://www.lancaster.ac.uk/images/people/1077.jpg) |
-| tim-sullivan | [Profile](https://warwick.ac.uk/fac/sci/maths/people/staff/sullivan/) | No portrait on Warwick profile | Placeholder retained |
+| tim-sullivan | [CV](http://www.tjsullivan.org.uk/cv/), [research interests](https://warwick.ac.uk/fac/sci/maths/people/staff/sullivan/) | [Google Scholar](https://scholar.google.com/citations?user=HtwLUl4AAAAJ&hl=en) | [Original image](https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=HtwLUl4AAAAJ&citpid=4) |
 
 Christophe Andrieu's research summary also draws on [Bristol's research areas](https://www.bristol.ac.uk/maths/archive/postgraduate/research-areas/).
 
-Avetik Karagulyan's personal profile lists CNRS/L2S; the existing event affiliation (Ecole Polytechnique) has been retained pending organiser confirmation. His bio does not repeat an institutional affiliation.
+Avetik Karagulyan's position is Research Scientist at CNRS/L2S, matching his personal profile. His brief bio focuses on his current role and research rather than previous advisors.
+
+Tim Sullivan's CV lists Reader in Predictive Modelling for 2025-present in its appointments section. This dated entry takes precedence over the older Associate Professor title still present in its general-information section.
+
+Chris Sherlock's position and research interests were also checked against his [Lancaster University profile](https://www.lancaster.ac.uk/sci-tech/about-us/people/christopher-sherlock).
+
+Mauricio's displayed name is shortened to Mauricio Álvarez at the organiser's request. His personal website uses Mauricio A Álvarez; existing anchor IDs and image filenames are retained so links keep working.
+
+All 13 brief bios were reviewed for consistent position titles, full institution names, UK spelling and a current-role-and-research focus. Talk titles and abstracts were left unchanged.

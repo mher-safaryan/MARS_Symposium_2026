@@ -9,7 +9,7 @@ Deployed to: `https://mher-safaryan.github.io/MARS_Symposium_2026/`
 ## Building locally
 
 ```bash
-hugo server -D
+./serve.sh
 ```
 
 ## Deployment

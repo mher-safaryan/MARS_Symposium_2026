@@ -6,7 +6,7 @@
     <img class="speaker-photo" src="{{ $photo | relURL }}" alt="{{ if .Get "photo" }}{{ $name }}{{ else }}Photo placeholder for {{ $name }}{{ end }}" width="96" height="96" loading="lazy">
     <div class="speaker-identity">
       <p class="speaker-kind">{{ .Get "kind" | default "Invited speaker" }}</p>
-      <h3 id="name-{{ $id }}">{{ $name }}</h3>
+      <h2 id="name-{{ $id }}">{{ $name }}</h2>
       <p class="speaker-affiliation">{{ .Get "affiliation" }}</p>
     </div>
   </div>
@@ -15,14 +15,14 @@
     <span class="speaker-time">{{ .Get "start" }} &ndash; {{ .Get "end" }} <span class="speaker-zone">BST</span></span>
   </a>
   <details class="speaker-details speaker-bio">
-    <summary><span class="when-closed">Read bio</span><span class="when-open">Hide bio</span></summary>
+    <summary><span class="when-closed">Brief bio</span><span class="when-open">Hide brief bio</span></summary>
     <div class="speaker-detail-body">
       <p>{{ .Get "bio" | default "Biography to follow." | markdownify }}</p>
       {{ with .Get "profile" }}<p><a href="{{ . }}">Public profile</a></p>{{ end }}
     </div>
   </details>
   <details class="speaker-details speaker-talk">
-    <summary>Talk title &amp; abstract</summary>
+    <summary><span class="when-closed">Talk title &amp; abstract</span><span class="when-open">Hide talk title &amp; abstract</span></summary>
     <div class="speaker-detail-body">{{ .Inner | safeHTML }}</div>
   </details>
 </article>
