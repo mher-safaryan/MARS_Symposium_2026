@@ -56,7 +56,7 @@ description: "Confirmed speakers for the MARS Annual Symposium 2026"
 {{< /speaker >}}
 
 {{< speaker id="siddharth-narayanaswamy" name="Dr. Siddharth Narayanaswamy" affiliation="University of Edinburgh" date="2026-09-11" start="11:30" end="12:05" profile="https://homepages.inf.ed.ac.uk/snaraya3/" photo="images/speakers/siddharth-narayanaswamy.webp" bio="Siddharth Narayanaswamy is a Reader in Explainable AI at the University of Edinburgh, where he leads ExLab. He studies structured representations and human-machine interaction to build robust, generalisable and interpretable AI systems." >}}
-<p class="talk-title">Talk title to be confirmed</p>
+<p class="talk-title"><em>Tentative title: </em>LLMs for MCMC</p>
 <p class="abstract"><em>Abstract to follow.</em></p>
 {{< /speaker >}}
 
