@@ -164,6 +164,28 @@
   text-underline-offset: 3px;
 }
 
+.schedule .sentry .venue-link {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.3rem;
+  padding: 0.08rem 0.48rem;
+  border: 1px solid color-mix(in srgb, var(--event-accent) 40%, transparent);
+  border-radius: 999px;
+  background: var(--event-surface);
+  font-size: 0.78rem;
+  font-weight: 650;
+  line-height: 1.45;
+  white-space: nowrap;
+  vertical-align: 0.08em;
+}
+
+.schedule .sentry .venue-link:hover,
+.schedule .sentry .venue-link:focus-visible {
+  background: var(--event-accent);
+  color: #fff;
+  text-decoration: none;
+}
+
 .schedule .srow.break {
   background: var(--event-tint);
   color: var(--event-muted);
