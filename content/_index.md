@@ -22,7 +22,9 @@ The focus of this year's symposium is computational mathematics and probabilisti
 
 The programme will include invited talks, contributed presentations, and opportunities for discussion and networking. We particularly welcome participation from researchers whose work connects mathematical methodology with modern machine learning and real-world applications.
 
-**Organisers: Matthias Sachs · Mher Safaryan · Maciej Buze**
+**Academic organisers:** Matthias Sachs · Mher Safaryan · Maciej Buze
+
+**Administrative support:** Amanda Fenwick · Zoe Bolton
 
 <div class="logo-bar">
   <img src="images/lancaster_university_logo.png" alt="Lancaster University">
