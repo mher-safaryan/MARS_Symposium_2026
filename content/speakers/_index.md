@@ -78,3 +78,47 @@ description: "Confirmed speakers for the MARS Annual Symposium 2026"
 {{< /speaker >}}
 
 </div>
+
+<div class="speaker-list">
+
+{{< speaker compact=true id="xinyi-wu" name="Xinyi Wu" kind="Spotlight (Day 1) and poster" affiliation="Senior Research Associate, Lancaster University" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="ben-cardoen" name="Ben Cardoen" kind="Spotlight talk (Day 1)" affiliation="Research Fellow, University of Birmingham" photo="images/speakers/ben-cardoen.jpg" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="geyu-ji" name="Geyu Ji" kind="Spotlight (Day 1) and poster" affiliation="PhD student, University of Warwick" photo="images/speakers/geyu-ji.jpg" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="lanya-yang" name="Lanya Yang" kind="Spotlight (Day 1) and poster" affiliation="PhD student, Lancaster University" photo="images/speakers/lanya-yang.jpg" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="xiaoyu-jiang" name="Xiaoyu Jiang" kind="Spotlight (Day 1) and poster" affiliation="PhD student, University of Manchester" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="shreya-sinha-roy" name="Shreya Sinha Roy" kind="Spotlight talk (Day 1)" affiliation="Research Associate, Lancaster University" photo="images/speakers/shreya-sinha-roy.jpg" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="mengna-li" name="Mengna Li" kind="Spotlight talk (Day 2)" affiliation="PhD student, University of Birmingham" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="yuxin-liu" name="Yuxin Liu" kind="Spotlight (Day 2) and poster" affiliation="PhD student, University College London" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="cassandra-durr" name="Cassandra Durr" kind="Spotlight talk (Day 2)" affiliation="PhD student, Lancaster University" photo="images/speakers/cassandra-durr.jpg" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="bohan-zhan" name="Bohan Zhan" kind="Spotlight (Day 2) and poster" affiliation="PhD student, University of Birmingham" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="alin-morariu" name="Alin Morariu" kind="Spotlight (Day 2) and poster" affiliation="Senior Research Associate, Lancaster University" photo="images/speakers/alin-morariu.jpg" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="rui-yang-zhang" name="Rui-Yang Zhang" kind="Spotlight (Day 2) and poster" affiliation="PhD student, Lancaster University" photo="images/speakers/rui-yang-zhang.png" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="dibyakanti-kumar" name="Dibyakanti Kumar" kind="Poster presentation" affiliation="PhD student, University of Manchester" photo="images/speakers/dibyakanti-kumar.jpg" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="luke-hardcastle" name="Luke Hardcastle" kind="Poster presentation" affiliation="Research Associate, MRC Biostatistics Unit, University of Cambridge" photo="images/speakers/luke-hardcastle.jpg" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="joe-marsh-rossney" name="Joe Marsh Rossney" kind="Poster presentation" affiliation="Research Software Engineer, UK Centre for Ecology & Hydrology" photo="images/speakers/joe-marsh-rossney.jpg" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="stephen-mander" name="Stephen Mander" kind="Poster presentation" affiliation="Senior Research Associate, Lancaster University" photo="images/speakers/stephen-mander.jpg" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="peiyi-zhou" name="Peiyi Zhou" kind="Poster presentation" affiliation="PhD student, University College London" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="mohamed-ibrahim-abdi" name="Mohamed Ibrahim Abdi" kind="Poster presentation" affiliation="National Taiwan University of Science and Technology, Taiwan" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="congye-wang" name="Congye Wang" kind="Poster presentation" affiliation="Senior Research Associate, Lancaster University" photo="images/speakers/congye-wang.webp" >}}{{< /speaker >}}
+
+{{< speaker compact=true id="arina-pambukyan" name="Arina Pambukyan" kind="Poster presentation" affiliation="Computer Science graduate, American University of Armenia" >}}{{< /speaker >}}
+
+</div>

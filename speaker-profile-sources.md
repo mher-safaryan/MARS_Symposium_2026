@@ -29,3 +29,36 @@ Chris Sherlock's position and research interests were also checked against his [
 Mauricio's displayed name is shortened to Mauricio Álvarez at the organiser's request. His personal website uses Mauricio A Álvarez; existing anchor IDs and image filenames are retained so links keep working.
 
 All 13 brief bios were reviewed for consistent position titles, full institution names, UK spelling and a current-role-and-research focus. Talk titles and abstracts were left unchanged.
+
+## Spotlight and Poster Presenters
+
+Checked 8 September 2026. Each presenter appears once; presentation categories and spotlight days come from the organiser's list. New cards show only the photo/avatar, category, name, and position/affiliation. Portraits are unmodified local copies from the public pages below, displayed with the existing square CSS crop.
+
+| Presenter | Position and affiliation source | Portrait source |
+| --- | --- | --- |
+| Xinyi Wu | [Lancaster directory](https://research.lancaster-university.uk/en/persons/xinyi-wu/): Senior Research Associate, Lancaster University. [Personal page](https://xinyi-wu.github.io/) confirms joining Lancaster in May 2026. | No verified portrait found; neutral placeholder. |
+| Ben Cardoen | [Birmingham staff page](https://www.birmingham.ac.uk/staff/profiles/maths/cardoen-ben): Research Fellow, University of Birmingham. | Same staff page; [image](https://www.birmingham.ac.uk/images/staff/profiles/eps/maths/cardoen-ben-cropped-230x230.jpg?quality=80&width=411). |
+| Geyu Ji | [Warwick profile](https://warwick.ac.uk/fac/sci/statistics/staff/research_students/geyuji): PhD student, University of Warwick. | Same profile; [image](https://warwick.ac.uk/fac/sci/statistics/staff/research_students/geyuji/img_6374_copy_copy.jpg). |
+| Lanya Yang | [Lancaster staff page](https://www.lancaster.ac.uk/maths/people/lanya-yang): PhD student, Lancaster University. | Same staff page; [image](https://www.lancaster.ac.uk/images/people/20331.jpg). |
+| Xiaoyu Jiang | [Manchester AI team](https://www.ai-fun.manchester.ac.uk/about/people/): listed under PhD Candidates, University of Manchester. | No verified portrait found; neutral placeholder. Unrelated same-name profiles were excluded. |
+| Shreya Sinha Roy | [Lancaster staff directory](https://a11y.www.lancs.ac.uk/sci-tech/about-us/people/): Research Associate - MARS, Lancaster University. | [Warwick PhD profile](https://warwick.ac.uk/fac/sci/statistics/staff/research_students/sinharoy/); [image](https://warwick.ac.uk/fac/sci/statistics/staff/research_students/sinharoy/profile_photo_london_2.jpg). The older Warwick affiliation is not used on the card. |
+| Mengna Li | [Supervisor's page](https://sites.google.com/site/xiaochengshang/home): PhD student since 2025, University of Birmingham. | No verified portrait found; neutral placeholder. |
+| Yuxin Liu | [Samuel Livingstone's group](https://samueljlivingstone.wixsite.com/webpage/page4): PhD student since 2025, University College London. | No verified portrait found; neutral placeholder. The UCL Education MA student with this name is a different academic match and was excluded. |
+| Cassandra Durr | [Personal university page](https://www.lancaster.ac.uk/stor-i-student-sites/cassandra-durr/): PhD student, Lancaster University. | Same page's introductory portrait; [image](https://www.lancaster.ac.uk/stor-i-student-sites/cassandra-durr/wp-content/uploads/sites/70/2024/12/1b922fe0-020b-4d30-8331-0805fb2c0eef.jpg). |
+| Bohan Zhan | [Supervisor's page](https://sites.google.com/site/xiaochengshang/home): PhD student since 2024, University of Birmingham. | No verified portrait found; neutral placeholder. |
+| Alin Morariu | [Lancaster staff page](https://www.lancaster.ac.uk/sci-tech/about-us/people/alin-morariu): Senior Research Associate, Lancaster University. Lancaster retained at the organiser's explicit request on 8 September 2026. | [Personal page](https://a-morariu.github.io/); [image](https://a-morariu.github.io/pictures/personal_media/alin-headshot.jpg). |
+| Rui-Yang Zhang | [Personal page](https://shusheng3927.github.io/): PhD student, Lancaster University. | Same page; [image](https://shusheng3927.github.io/self.png). |
+| Dibyakanti Kumar | [Personal page](https://dibyakanti.github.io/): PhD student, University of Manchester. | Same page; [image](https://dibyakanti.github.io/assets/img/img2.jpeg). |
+| Luke Hardcastle | [MRC Biostatistics Unit staff page](https://www.mrc-bsu.cam.ac.uk/staff/luke-hardcastle): Research Associate since October 2025, MRC Biostatistics Unit, University of Cambridge. | Same page; [image](https://www.mrc-bsu.cam.ac.uk/sites/default/files/styles/inline/public/images/profile/luke_hardcastle.jpeg?itok=5bqsW6Oa). |
+| Joe Marsh Rossney | [UKCEH staff page](https://www.ceh.ac.uk/staff/joe-marsh-rossney): Research Software Engineer, UK Centre for Ecology & Hydrology. | Same page; [image](https://www.ceh.ac.uk/sites/default/files/styles/medium/public/pictures/2024-07/marsh-rossney-joe.jpg?itok=XWfVQfS8). |
+| Stephen Mander | [Lancaster staff page](https://www.lancaster.ac.uk/psychology/about-us/people/stephen-mander): Senior Research Associate, Lancaster University. | Same page; [image](https://www.lancaster.ac.uk/images/people/14292.jpg). |
+| Peiyi Zhou | [Samuel Livingstone's group](https://samueljlivingstone.wixsite.com/webpage/page4): PhD student since 2025, University College London. | No verified portrait found; neutral placeholder. |
+| Mohamed Ibrahim Abdi | National Taiwan University of Science and Technology, Taiwan, supplied by the organiser. No confidently matched official position found; position intentionally omitted with organiser approval. | No verified portrait found; neutral placeholder. |
+| Congye Wang | [Personal page](https://congyewang.github.io/): Senior Research Associate at Lancaster University from August 2026. | Same page; [image](https://congyewang.github.io/img/author_hu_4be8e61350502455.webp). |
+| Arina Pambukyan | [AUA article](https://newsroom.aua.am/2026/04/21/student-faculty-collaboration-arina-pambukyan-sachin-kumar-publish-scientific-reports/) identifies her as BSCS class of 2026; her [public professional profile](https://am.linkedin.com/in/arinapambukyan) now describes her as a Computer Science graduate. AUA retained as the organiser's event affiliation. | No verified portrait found on an allowed source; neutral placeholder. The AUA article's generic laptop illustration was not used as a portrait. |
+
+### Affiliation Caveats
+
+- [JUNIPER](https://juniper.maths.org/persons/alin-morariu) now lists Alin as a Research Fellow at the University of Nottingham. The organiser explicitly requested retaining Lancaster University for the event; the displayed Lancaster role comes from Lancaster's staff page and may be historical.
+- Congye's dated personal announcement specifies Senior Research Associate; Lancaster's general directory uses Research Associate. The dated personal announcement is used.
+- Mohamed's current position remains unverified. Arina's card describes her verified graduate status rather than inventing a university employment role.

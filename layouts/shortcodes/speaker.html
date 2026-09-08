@@ -1,7 +1,7 @@
 {{- $id := .Get "id" -}}
 {{- $name := .Get "name" -}}
 {{- $photo := .Get "photo" | default "images/speaker-placeholder.svg" -}}
-<article class="speaker" id="{{ $id }}" aria-labelledby="name-{{ $id }}">
+<article class="speaker{{ if .Get "compact" }} speaker-compact{{ end }}" id="{{ $id }}" aria-labelledby="name-{{ $id }}">
   <div class="speaker-header">
     <img class="speaker-photo" src="{{ $photo | relURL }}" alt="{{ if .Get "photo" }}{{ $name }}{{ else }}Photo placeholder for {{ $name }}{{ end }}" width="96" height="96" loading="lazy">
     <div class="speaker-identity">
@@ -10,6 +10,7 @@
       <p class="speaker-affiliation">{{ .Get "affiliation" }}</p>
     </div>
   </div>
+  {{ if not (.Get "compact") }}
   <a class="speaker-slot" href="{{ "programme/" | relURL }}#slot-{{ $id }}" title="View {{ $name }}'s talk in the programme">
     <time datetime="{{ .Get "date" }}">{{ time.Format "Monday 2 January" (.Get "date") }}</time>
     <span class="speaker-time">{{ .Get "start" }} &ndash; {{ .Get "end" }} <span class="speaker-zone">BST</span></span>
@@ -25,4 +26,5 @@
     <summary><span class="when-closed">Talk title &amp; abstract</span><span class="when-open">Hide talk title &amp; abstract</span></summary>
     <div class="speaker-detail-body">{{ .Inner | safeHTML }}</div>
   </details>
+  {{ end }}
 </article>
