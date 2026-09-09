@@ -56,8 +56,8 @@ description: "Confirmed speakers for the MARS Annual Symposium 2026"
 {{< /speaker >}}
 
 {{< speaker id="siddharth-narayanaswamy" name="Dr. Siddharth Narayanaswamy" affiliation="University of Edinburgh" date="2026-09-11" start="11:30" end="12:05" profile="https://homepages.inf.ed.ac.uk/snaraya3/" photo="images/speakers/siddharth-narayanaswamy.webp" bio="Siddharth Narayanaswamy is a Reader in Explainable AI at the University of Edinburgh, where he leads ExLab. He studies structured representations and human-machine interaction to build robust, generalisable and interpretable AI systems." >}}
-<p class="talk-title"><em>Tentative title: </em>LLMs for MCMC</p>
-<p class="abstract"><em>Abstract to follow.</em></p>
+<p class="talk-title">Can LLMs talk in MCMC?</p>
+<p class="abstract">LLMs are great for language modelling. Their core competence is really sequence to sequence modelling. Prompt sequence goes in, task relevant sequence comes out. Here, I will discuss some preliminary work on leveraging this core competence for probabilistic inference. Model, data, and states go in and transformed states come out. How well does this work? Can we actually do interesting things with it?</em></p>
 {{< /speaker >}}
 
 {{< speaker id="clarice-poon" name="Dr. Clarice Poon" affiliation="University of Warwick" date="2026-09-09" start="15:30" end="16:05" profile="https://cmhsp2.github.io/" photo="images/speakers/clarice-poon.jpg" bio="Clarice Poon is a Reader in the Mathematics Institute at the University of Warwick. Her research focuses on sparse estimation and structured optimisation, including methods for non-smooth optimisation problems." >}}
